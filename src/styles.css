@@ -1,0 +1,50 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+body {
+    margin: 0;
+    font-family: Roboto, sans-serif;
+    background-color: blueviolet;
+  }
+  
+  mat-card {
+    max-width: 80%;
+    margin: 2em auto;
+    text-align: center;
+  }
+  
+  mat-toolbar-row {
+    justify-content: space-between;
+  }
+  
+  .done {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    color: white;
+  }
+
+@font-face {
+  font-family: 'icomoon';
+  src:url('./fonts/Navigation-icons.eot');
+  src:url('fonts/Navigation-icons.eot?#iefix') format('embedded-opentype'),
+      url('fonts/Navigation-icons.woff') format('woff'),
+      url('fonts/Navigation-icons.ttf') format('truetype'),
+      url('./fonts/Navigation-icons.svg#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}

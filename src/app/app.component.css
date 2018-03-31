@@ -1,0 +1,74 @@
+ 
+.toolbar-spacer {
+  flex: 1 1 auto;
+}
+
+.toolbar-icon {
+    padding: 0 14px;
+}
+
+.sidenav-icon {
+  padding-top: 35px;
+  padding-bottom: 35px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.toolbar-icon:hover span {
+  transform: translateY(-10px);
+}
+
+.sidenav-container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.main-content-sidenav-container {
+  position: relative;
+  top: 30px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.yellow-color {
+  background-color: yellow;
+  max-width: 8%;
+}
+
+.main-sidenav-container {
+  background-color: rgb(19, 175, 228);
+}
+
+.inner-sidenav {
+  background-color: rgb(19, 175, 228);
+  min-height: 100%;
+}
+.gims-ttolbar {
+  max-height: 5%;
+}
+.icon-logout:before {
+  content: "\e959";
+}
+
+.icon-notification:before {
+content: "\e963";
+}
+
+.icon-user_filled:before {
+content: "\e9df";
+}
+
+.icon-home:before {
+  content: "\e98e";
+}
+
+.icon-circle_add:before {
+  content: "\e920";
+}
+
+.icon-burger_menu:before {
+  content: "\e918";
+}
